@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Source+Code+Pro:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --color-variable: #2455f4
+}
+
+/* ---start header section  */
+header {
+    background: var(--color-variable);
+    font-family: 'Lato', sans-serif;
+    /* border: 2px solid red;  */
+
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 88px;
+    padding: 0px 25px;
+}
+
+nav ul {
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0px 23px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    
+}
+nav ul li a:hover {
+    /* font-weight: bolder; */
+    color: rgb(58, 30, 136);
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 300px;
+    height: 23px;
+    border: 2px  black;
+    border-radius: 12px;
+    margin: 0px 50px 0px 55px;
+}
+.btn{
+    border: 2px solid white;
+    border-radius: 12px;
+    background-color: var(--color-variable);
+    cursor: pointer;
+}
+/* ----start main section  */
+.container {
+    min-height: calc(100vh - 58px - 12vh);
+}
+
+/* start footer section  */
+footer {
+    height: 12vh;
+    background-color: var(--color-variable);
+    color: #fcf9f9;
+    font-family: 'Lato', sans-serif;
+}
